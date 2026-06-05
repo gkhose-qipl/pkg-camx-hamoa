@@ -1,0 +1,10 @@
+qcom-camera_1.0.0-1_arm64.buildinfo misc optional
+qcom-camx-hamoa-dev_1.0.0-1_arm64.deb libdevel optional
+qcom-camx-hamoa_1.0.0-1_arm64.deb misc optional
+qcom-camxlib-hamoa-dev_1.0.0-1_arm64.deb libdevel optional
+qcom-camxlib-hamoa_1.0.0-1_arm64.deb misc optional
+qcom-chicdk-autogen-hamoa-dev_1.0.0-1_arm64.deb libdevel optional
+qcom-chicdk-core-dev_1.0.0-1_arm64.deb libdevel optional
+qcom-chicdk-hamoa-dev_1.0.0-1_arm64.deb libdevel optional
+qcom-chicdk-hamoa_1.0.0-1_arm64.deb misc optional
+qcom-chicdk-oem-dev_1.0.0-1_arm64.deb libdevel optional

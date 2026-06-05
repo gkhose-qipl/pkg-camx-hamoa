@@ -1,0 +1,13 @@
+usr/include/camx/camxformatutilexternal.h
+usr/lib/camx/hamoa/hw/camera.qcom.hamoa.so
+usr/lib/camx/hamoa/hw/camera.qcom.so
+usr/lib/camx/hamoa/libcamera_hardware.so
+usr/lib/camx/hamoa/libcamxexternalformatutils.so
+usr/lib/camx/hamoa/libcamxstats.a
+usr/lib/camx/hamoa/libcamxswljpeg.a
+usr/lib/camx/hamoa/libcamxutils.a
+usr/lib/camx/hamoa/libcom.qti.camx.chiiqutils.so
+usr/lib/camx/hamoa/libcom.qti.node.eisv2.so
+usr/lib/camx/hamoa/libcom.qti.node.eisv3.so
+usr/lib/libcamera_hardware_hamoa.so
+usr/lib/libcamxexternalformatutils_hamoa.so

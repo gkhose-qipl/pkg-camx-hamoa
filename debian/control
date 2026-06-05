@@ -1,0 +1,100 @@
+Source: qcom-camera
+Section: misc
+Priority: optional
+Maintainer: Qualcomm Camera Team <camera.deb.maintainers@qti.qualcomm.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libglib2.0-0,
+ libglib2.0-dev,
+ libxml2,
+ libxml2-dev,
+Standards-Version: 4.6.2
+Homepage: http://support.cdmatech.com
+
+Package: qcom-chicdk-core-dev
+Section: libdevel
+Architecture: arm64
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: CHI-CDK core headers
+ Core header files for CHI Camera Development Kit.
+ Platform-independent development headers.
+
+Package: qcom-chicdk-oem-dev
+Section: libdevel
+Architecture: arm64
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: CHI-CDK OEM headers
+ OEM header files for CHI Camera Development Kit.
+ Platform-independent development headers.
+
+Package: qcom-chicdk-autogen-hamoa-dev
+Section: libdevel
+Architecture: arm64
+Depends: ${misc:Depends}
+Description: CHI-CDK auto-generated headers for Lemans platform
+ Platform-specific auto-generated header files for CHI Camera Development Kit.
+ Generated from buildbins, usecase composer, logical camera generator, etc.
+ Includes g_pipelines.cpp, g_devicedefs.h, g_pineapple_usecase.xml, etc.
+
+Package: qcom-camxlib-hamoa
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Qualcomm CamX library for Lemans platform
+ Camera hardware abstraction layer libraries and firmware
+ for Lemans (QCS9100) platform. Includes camx-common libraries.
+
+Package: qcom-camxlib-hamoa-dev
+Section: libdevel
+Architecture: arm64
+Depends:
+ qcom-camxlib-hamoa (= ${binary:Version}),
+ qcom-chicdk-autogen-hamoa-dev (= ${binary:Version}),
+ qcom-chicdk-core-dev (= ${binary:Version}),
+ qcom-chicdk-oem-dev (= ${binary:Version}),
+ ${misc:Depends}
+Description: Qualcomm CamX library development files for Lemans
+ Development headers and static libraries for CamX library.
+ Includes camx-common headers (g_camxsettings.h, etc.).
+
+Package: qcom-camx-hamoa
+Architecture: arm64
+Depends:
+ qcom-camxlib-hamoa (= ${binary:Version}),
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Qualcomm CamX core for Lemans platform
+ Core camera driver components for Lemans platform.
+
+Package: qcom-camx-hamoa-dev
+Section: libdevel
+Architecture: arm64
+Depends:
+ qcom-camx-hamoa (= ${binary:Version}),
+ qcom-camxlib-hamoa-dev (= ${binary:Version}),
+ ${misc:Depends}
+Description: Qualcomm CamX core development files for Lemans
+ Development headers for CamX core components.
+
+Package: qcom-chicdk-hamoa
+Architecture: arm64
+Depends:
+ qcom-camx-hamoa (= ${binary:Version}),
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Qualcomm CHI-CDK for Lemans platform
+ CHI Camera Development Kit runtime libraries for Lemans.
+
+Package: qcom-chicdk-hamoa-dev
+Section: libdevel
+Architecture: arm64
+Depends:
+ qcom-chicdk-hamoa (= ${binary:Version}),
+ qcom-camx-hamoa-dev (= ${binary:Version}),
+ ${misc:Depends}
+Description: Qualcomm CHI-CDK development files for Lemans
+ Development headers for CHI-CDK components.
