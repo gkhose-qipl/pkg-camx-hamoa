@@ -8,11 +8,11 @@ export DH_VERBOSE = 1
 override_dh_auto_install:
 ifeq ($(DEB_HOST_ARCH),arm64)
 	mkdir -p debian/tmp
-	for pkg in qcom-camx-hamoa qcom-camx-hamoa-dev \
-	           qcom-camxlib-hamoa qcom-camxlib-hamoa-dev \
-	           qcom-chicdk-autogen-hamoa-dev qcom-chicdk-core-dev \
-	           qcom-chicdk-hamoa qcom-chicdk-hamoa-dev \
-	           qcom-chicdk-oem-dev; do \
+	for pkg in camx-hamoa camx-hamoa-dev \
+	           camxlib-hamoa camxlib-hamoa-dev \
+	           chicdk-autogen-hamoa-dev chicdk-core-dev \
+	           chicdk-hamoa chicdk-hamoa-dev \
+	           chicdk-oem-dev camx-nhx; do \
 		cp -a data/$$pkg/arm64/* debian/tmp/; \
 	done
 	rm -rf $(CURDIR)/debian/tmp/usr/share/doc
