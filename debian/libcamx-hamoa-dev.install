@@ -1,8 +1,3 @@
-usr/include/camx-api/camx/service/camera_metadata_hidden.h usr/include/camx-api/camx/service
-usr/include/camx-api/camx/service/system/*.h usr/include/camx-api/camx/service/system
-usr/include/camx-api/camx/service/hardware/*.h usr/include/camx-api/camx/service/hardware
-usr/include/camx/camxformatutilexternal.h usr/include/camx
-
 usr/lib/libcamx_hardware_hamoa.so usr/lib/
 usr/lib/libcamxexternalformatutils_hamoa.so usr/lib/
 usr/lib/libcamx_metadata_hamoa.so usr/lib/

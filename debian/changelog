@@ -1,5 +1,5 @@
-camera (1.0.0-1) UNRELEASED; urgency=medium
+camera-hamoa (1.0.0-1) UNRELEASED; urgency=medium
 
   * Camx debians for hamoa platform.
 
- -- Qualcomm Camera Team <camera.deb.maintainers@qti.qualcomm.com>  Wed, 18 Jun 2026 00:00:00 +0000
+ -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Wed, 18 Jun 2026 00:00:00 +0000
