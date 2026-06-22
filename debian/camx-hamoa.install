@@ -5,9 +5,6 @@ usr/lib/camx/hamoa/libcom.qti.camx.chiiqutils.so.* usr/lib/camx/hamoa/
 usr/lib/camx/hamoa/libcom.qti.node.eisv2.so.* usr/lib/camx/hamoa/
 usr/lib/camx/hamoa/libcom.qti.node.eisv3.so.* usr/lib/camx/hamoa/
 
-
-
-#camxlib
 usr/lib/camx/hamoa/camera/components/com.qti.node.swregistration.so.* usr/lib/camx/hamoa/camera/components/
 usr/lib/camx/hamoa/camera/components/com.qti.stats.aec.so.* usr/lib/camx/hamoa/camera/components/
 usr/lib/camx/hamoa/camera/components/com.qti.stats.aecxcore.so.* usr/lib/camx/hamoa/camera/components/
@@ -41,7 +38,6 @@ usr/lib/camx/hamoa/libopencv3a.so.* usr/lib/camx/hamoa/
 usr/lib/camx/hamoa/camera/components/libswregistrationalgo.so.* usr/lib/camx/hamoa/camera/components/
 usr/lib/camx/hamoa/com.qti.settings.hamoa.so.* usr/lib/camx/hamoa/
 
-#chicdk
 usr/lib/camx/hamoa/camera/com.qti.sensor.cmk_imx577.so.* usr/lib/camx/hamoa/camera/
 usr/lib/camx/hamoa/camera/com.qti.sensor.imx577.so.* usr/lib/camx/hamoa/camera/
 usr/lib/camx/hamoa/camera/com.qti.sensor.max96724_ox03f10.so.* usr/lib/camx/hamoa/camera/

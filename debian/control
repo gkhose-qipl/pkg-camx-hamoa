@@ -17,7 +17,7 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends}
-Description: Qualcomm CamX core for Hamoa platform
+Description: Qualcomm CamX usermode libraries for Hamoa platform
  Core camera driver components for Hamoa platform.
 
 Package: libcamx-hamoa1
@@ -26,8 +26,8 @@ Depends:
  camx-hamoa (= ${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends}
-Description: Qualcomm CamX libraries required by external
- camera service (QMMF) for Hamoa platform
+Description: Qualcomm CamX libraries for camera service
+ Set of libraries used by camera service (QMMF) for Hamoa platform
 
 Package: libcamx-hamoa-dev
 Architecture: arm64
@@ -35,5 +35,6 @@ Depends:
  camx-hamoa (= ${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends}
-Description: Qualcomm CamX libraries required by external
- camera service (QMMF) for Hamoa platform
+Description: Dev package for CamX libraries for camera service
+ Contains headers, unversioned so files used by camera service (QMMF
+ for Hamoa platform
