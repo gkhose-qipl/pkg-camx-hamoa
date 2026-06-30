@@ -2,6 +2,8 @@ Source: camera-hamoa
 Section: misc
 Priority: optional
 Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
+Uploaders:
+ Loïc Minier <loic.minier@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
  libglib2.0-0,
