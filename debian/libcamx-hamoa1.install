@@ -1,3 +1,1 @@
-usr/lib/libcamx_hardware_hamoa.so.*
-usr/lib/libcamxexternalformatutils_hamoa.so.*
-usr/lib/libcamx_metadata_hamoa.so.*
+usr/lib/lib*.so.*
