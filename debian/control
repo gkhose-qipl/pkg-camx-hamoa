@@ -1,19 +1,40 @@
-Source: template
-Section: libs
+Source: camera-hamoa
+Section: misc
 Priority: optional
-Maintainer: Simon Beaudoin <sbeaudoi@qti.qualcomm.com>
-Build-Depends: debhelper (>= 13)
+Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libglib2.0-0,
+ libglib2.0-dev,
+ libxml2-16,
+ libxml2-dev,
 Standards-Version: 4.6.2
+Homepage: http://support.cdmatech.com
 
-Package: template1
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Template package
- This is an example package to demonstrate the Qualcomm OSS development flow
+Package: camx-hamoa
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Qualcomm CamX usermode libraries for Hamoa platform
+ Core camera driver components for Hamoa platform.
 
-Package: template-dev
-Section: libdevel
-Architecture: any
-Depends: template1 (= ${binary:Version}), ${misc:Depends}
-Description: Template package dev
- This is an example package to demonstrate the Qualcomm OSS development flow
+Package: libcamx-hamoa1
+Architecture: arm64
+Depends:
+ camx-hamoa (= ${binary:Version}),
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Qualcomm CamX libraries for camera service
+ Set of libraries used by camera service (QMMF) for Hamoa platform
+
+Package: libcamx-hamoa-dev
+Architecture: arm64
+Depends:
+ camx-hamoa (= ${binary:Version}),
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Dev package for CamX libraries for camera service
+ Contains unversioned so files used by camera service (QMMF)
+ for Hamoa platform
