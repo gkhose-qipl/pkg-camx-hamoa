@@ -1,26 +1,1140 @@
-Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+ .
+Files:
+ *
+Copyright:
+ Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ All rights reserved.
+ Confidential and Proprietary - Qualcomm Technologies, Inc.
+License: Qualcomm-Nologin-Binaries
+ PLEASE READ THIS LICENSE AGREEMENT ("AGREEMENT") CAREFULLY. THIS AGREEMENT IS
+ A BINDING LEGAL AGREEMENT ENTERED INTO BY AND BETWEEN YOU (OR IF YOU ARE
+ ENTERING INTO THIS AGREEMENT ON BEHALF OF AN ENTITY, THEN THE ENTITY THAT YOU
+ REPRESENT) AND QUALCOMM TECHNOLOGIES, INC. ("QTI" "WE" "OUR" OR "US"). THIS IS
+ THE AGREEMENT THAT APPLIES TO YOUR USE OF THE DESIGNATED AND/OR LINKED
+ APPLICATIONS, THE ENCLOSED QUALCOMM TECHNOLOGIES' MATERIALS, INCLUDING RELATED
+ DOCUMENTATION AND ANY UPDATES OR IMPROVEMENTS THEREOF
+ (COLLECTIVELY, "MATERIALS"). BY USING OR COMPLETING THE INSTALLATION OF THE
+ MATERIALS, YOU ARE ACCEPTING THIS AGREEMENT AND YOU AGREE TO BE BOUND BY ITS
+ TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO THESE TERMS, QTI IS UNWILLING TO
+ AND DOES NOT LICENSE THE MATERIALS TO YOU. IF YOU DO NOT AGREE TO THESE TERMS
+ YOU MUST DISCONTINUE THE INSTALLATION PROCESS AND YOU MAY NOT USE THE MATERIALS
+ OR RETAIN ANY COPIES OF THE MATERIALS. ANY USE OR POSSESSION OF THE MATERIALS
+ BY YOU IS SUBJECT TO THE TERMS AND CONDITIONS SET FORTH IN THIS AGREEMENT.
+ .
+ 1. RIGHT TO USE DELIVERABLES; RESTRICTIONS.
+ .
+  1.1 License. Subject to the terms and conditions of this Agreement,
+  including, without limitation, the restrictions, conditions, limitations and
+  exclusions set forth in this Agreement, QTI hereby grants to you a
+  nonexclusive, limited license under QTI's copyrights to: (i) install and use
+  the Materials; and (ii) to reproduce and redistribute the binary code portions
+  of the Materials (the "Redistributable Binary Code"). You may make and use a
+  reasonable number of copies of any documentation.
+ .
+  1.2 Redistribution Restrictions. Distribution of the Redistributable Binary
+  Code is subject to the following restrictions: (i) Redistributable Binary Code
+  may only be distributed in binary format and may not be distributed in source
+  code format:; (ii) the Redistributable Binary Code may only operate in
+  conjunction with platforms incorporating Qualcomm Technologies, Inc. chipsets;
+  (iii) redistribution of the Redistributable Binary Code must include the .txt
+  file setting forth the terms and condition of this Agreement; (iv) you may not
+  use Qualcomm Technologies' or its affiliates or subsidiaries name, logo or
+  trademarks; and (v) copyright, trademark, patent and any other notices that
+  appear on the Materials may not be removed or obscured.
+ .
+  1.3 Additional Restrictions. Except as expressly permitted by this Agreement,
+  you shall have no right to sublicense, transfer or otherwise disclose the
+  Materials to any third party. You shall not reverse engineer, reverse
+  assemble, reverse translate, decompile or reduce to source code form any
+  portion of the Materials provided in object code form or executable form.
+  Except for the purposes expressly permitted in this Agreement, You shall not
+  use the Materials for any other purpose. QTI (or its licensors) shall retain
+  title and all ownership rights in and to the Materials and any alterations,
+  modifications (including all derivative works), translations or adaptations
+  made of the Materials, and all copies thereof, and nothing herein shall be
+  deemed to grant any right to You under any of QTI's or its affiliates'
+  patents. You shall not subject the Materials to any third party license
+  terms (e.g., open source license terms). You shall not use the Materials for
+  the purpose of identifying or providing evidence to support any potential
+  patent infringement claim against QTI, its affiliates, or any of QTI's or
+  QTI's affiliates' suppliers and/or direct or indirect customers. QTI hereby
+  reserves all rights not expressly granted herein.
+ .
+  1.4 Third Party Software and Materials. The Software may contain or link to
+  certain software and/or materials that are written or owned by third parties.
+  Such third party code and materials may be licensed under separate or
+  different terms and conditions and are not licensed to you under the terms of
+  this Agreement. You agree to comply with all terms and conditions imposed on
+  you in the applicable third party licenses. Such terms and conditions may
+  impose certain obligations on you as a condition to the permitted use of such
+  third party code and materials. QTI does not represent or warrant that such
+  third party licensors have or will continue to license or make available their
+  code and materials to you.
+ .
+  1.5 Feedback. QTI may from time to time receive suggestions, feedback or
+  other information from You regarding the Materials. Any suggestions, feedback
+  or other disclosures received from You are and shall be entirely voluntary on
+  the part of You. Notwithstanding any other term in this Agreement, QTI shall
+  be free to use suggestions, feedback or other information received from You,
+  without obligation of any kind to You. The Parties agree that all inventions,
+  product improvements, and modifications conceived of or made by QTI that are
+  based, either in whole or in part, on ideas, feedback, suggestions, or
+  recommended improvements received from You are the exclusive property of QTI,
+  and all right, title and interest in and to any such inventions, product
+  improvements, and modifications will vest solely in QTI.
+ .
+  1.6 No Technical Support. QTI is under no obligation to provide any form of
+  technical support for the Materials, and if QTI, in its sole discretion,
+  chooses to provide any form of support or information relating to the
+  Materials, such support and information shall be deemed confidential and
+  proprietary to QTI.
+ .
+ 2. WARRANTY DISCLAIMER. YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT THE USE OF
+ THE MATERIALS IS AT YOUR SOLE RISK. THE MATERIALS AND TECHNICAL SUPPORT, IF
+ ANY, ARE PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR
+ IMPLIED. QTI ITS LICENSORS AND AFFILIATES MAKE NO WARRANTIES, EXPRESS OR
+ IMPLIED, WITH RESPECT TO THE MATERIALS OR ANY OTHER INFORMATION OR
+ DOCUMENTATION
+ PROVIDED UNDER THIS AGREEMENT, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF
+ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR AGAINST INFRINGEMENT, OR
+ ANY EXPRESS OR IMPLIED WARRANTY ARISING OUT OF TRADE USAGE OR OUT OF A COURSE OF
+ DEALING OR COURSE OF PERFORMANCE. NOTHING CONTAINED IN THIS AGREEMENT SHALL BE
+ CONSTRUED AS (I) A WARRANTY OR REPRESENTATION BY QTI, ITS LICENSORS OR
+ AFFILIATES AS TO THE VALIDITY OR SCOPE OF ANY PATENT, COPYRIGHT OR OTHER
+ INTELLECTUAL PROPERTY RIGHT OR (II) A WARRANTY OR REPRESENTATION BY QTI THAT ANY
+ MANUFACTURE OR USE WILL BE FREE FROM INFRINGEMENT OF PATENTS, COPYRIGHTS OR
+ OTHER INTELLECTUAL PROPERTY RIGHTS OF OTHERS, AND IT SHALL BE THE SOLE
+ RESPONSIBILITY OF YOU TO MAKE SUCH DETERMINATION AS IS NECESSARY WITH RESPECT TO
+ THE ACQUISITION OF LICENSES UNDER PATENTS AND OTHER INTELLECTUAL PROPERTY OF
+ THIRD PARTIES.
+ .
+ 3. NO OTHER LICENSES OR INTELLECTUAL PROPERTY RIGHTS. Neither this Agreement,
+ nor any act by QTI or any of its affiliates pursuant to this Agreement or
+ relating to the Materials (including, without limitation, the provision by QTI
+ or its affiliates of the Materials), shall provide to You any license or any
+ other rights whatsoever under any patents, trademarks, trade secrets, copyrights
+ or any other intellectual property of QTI or any of its affiliates, except for
+ the copyright rights expressly licensed under this Agreement. You understand and
+ agree that:
+ .
+  (i) Neither this Agreement, nor delivery of the Materials, grants any right to
+  practice, or any other right at all with respect to, any patent of QTI or any
+  of its affiliates; and
+  (ii) A separate license agreement from QUALCOMM Incorporated is needed to use
+  or practice any patent of QUALCOMM Incorporated. You agree not to contend in
+  any context that, as a result of the provision or use of the Materials, either
+  QTI or any of its affiliates has any obligation to extend, or You or any other
+  party has obtained any right to, any license, whether express or implied, with
+  respect to any patent of QTI or any of its affiliates for any purpose.
+ .
+ 4. TERMINATION. This Agreement shall be effective upon acceptance, or access or
+ use of the Materials (whichever occurs first) by You and shall continue until
+ terminated. You may terminate the Agreement at any time by deleting and
+ destroying all copies of the Materials and all related information in Your
+ possession or control. This Agreement terminates immediately and automatically,
+ with or without notice, if You fail to comply with any provision hereof.
+ Additionally, QTI may at any time terminate this Agreement, without cause, upon
+ notice to You. Upon termination You must, to the extent possible, delete or
+ destroy all copies of the Materials in Your possession and the license granted
+ to You in this Agreement shall terminate. Sections 1.2 through 10 shall survive
+ the termination of this Agreement. In the event that any restrictions,
+ conditions, limitations are found to be either invalid or unenforceable, the
+ rights granted to You in Section 1 (License) shall be null, void and ineffective
+ from the Effective Date, and QTI shall also have the right to terminate this
+ Agreement immediately, and with retroactive effect to the effective date.
+ .
+ 5. LIMITATION OF LIABILITY. IN NO EVENT SHALL QTI, QTI's AFFILIATES OR ITS
+ LICENSORS BE LIABLE TO YOU FOR ANY INCIDENTAL, CONSEQUENTIAL OR SPECIAL DAMAGES,
+ INCLUDING BUT NOT LIMITED TO ANY LOST PROFITS, LOST SAVINGS, OR OTHER INCIDENTAL
+ DAMAGES, ARISING OUT OF THE USE OR INABILITY TO USE, OR THE DELIVERY OR FAILURE
+ TO DELIVER, ANY OF THE DELIVERABLES, OR ANY BREACH OF ANY OBLIGATION UNDER THIS
+ AGREEMENT, EVEN IF QTI HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ THE FOREGOING LIMITATION OF LIABILITY SHALL REMAIN IN FULL FORCE AND EFFECT
+ REGARDLESS OF WHETHER YOUR REMEDIES HEREUNDER ARE DETERMINED TO HAVE FAILED
+ OF
+ THEIR ESSENTIAL PURPOSE. THE ENTIRE LIABILITY OF QTI, QTI's AFFILIATES AND ITS
+ LICENSORS, AND THE SOLE AND EXCLUSIVE REMEDY OF YOU, FOR ANY CLAIM OR CAUSE OF
+ ACTION ARISING HEREUNDER (WHETHER IN CONTRACT, TORT, OR OTHERWISE) SHALL NOT
+ EXCEED US$50.
+ .
+ 6. INDEMNIFICATION. You agree to indemnify and hold harmless QTI and its
+ officers, directors, employees and successors and assigns against any and all
+ third party claims, demands, causes of action, losses, liabilities, damages,
+ costs and expenses, incurred by QTI (including but not limited to costs of
+ defense, investigation and reasonable attorney's fees) arising out of, resulting
+ from or related to: (i) any breach of this Agreement by You; and (ii) your acts,
+ omissions, products and services. If requested by QTI, You agree to defend QTI
+ in connection with any third party claims, demands, or causes of action
+ resulting from, arising out of or in connection with any of the foregoing.
+ .
+ 7. ASSIGNMENT. You shall not assign this Agreement or any right or interest
+ under this Agreement, nor delegate any obligation to be performed under this
+ Agreement, without QTI's prior written consent. For purposes of this Section 7,
+ an "assignment" by You under this Section shall be deemed to include, without
+ limitation, any merger, consolidation, sale of all or substantially all of its
+ assets, or any substantial change in the management or control of You.
+ Any attempted assignment in contravention of this Section 9 shall be void.
+ QTI may freely assign this Agreement or delegate any or all of its rights and
+ obligations hereunder to any third party.
+ .
+ 8. COMPLIANCE WITH LAWS; APPLICABLE LAW. You agree to comply with all
+ applicable local, international and national laws and regulations and with U.S.
+ Export Administration Regulations, as they apply to the subject matter of this
+ Agreement. This Agreement is governed by the laws of the State of California,
+ excluding California's choice of law rules.
+ .
+ 9. CONTRACTING PARTIES. If the Materials are downloaded on any computer owned
+ by a corporation or other legal entity, then this Agreement is formed by and
+ between QTI and such entity. The individual accepting the terms of this
+ Agreement represents and warrants to QTI that they have the authority to bind
+ such entity to the terms and conditions of this Agreement.
+ .
+ 10. MISCELLANEOUS PROVISIONS. This Agreement, together with all exhibits
+ attached hereto, which are incorporated herein by this reference, constitutes
+ the entire agreement between QTI and You and supersedes all prior negotiations,
+ representations and agreements between the parties with respect to the subject
+ matter hereof. No addition or modification of this Agreement shall be effective
+ unless made in writing and signed by the respective representatives of QTI and
+ You. The restrictions, limitations, exclusions and conditions set forth in this
+ Agreement shall apply even if QTI or any of its affiliates becomes aware of or
+ fails to act in a manner to address any violation or failure to comply
+ therewith. You hereby acknowledge and agree that the restrictions, limitations,
+ conditions and exclusions imposed in this Agreement on the rights granted in
+ this Agreement are not a derogation of the benefits of such rights. You further
+ acknowledges that, in the absence of such restrictions, limitations, conditions
+ and exclusions, QTI would not have entered into this Agreement with You. Each
+ party shall be responsible for and shall bear its own expenses in connection
+ with this Agreement. If any of the provisions of this Agreement are determined
+ to be invalid, illegal, or otherwise unenforceable, the remaining provisions
+ shall remain in full force and effect. This Agreement is entered into solely
+ in the English language, and if for any reason any other language version is
+ prepared by any party, it shall be solely for convenience and the English
+ version shall govern and control all aspects. If You are located in the
+ province of Quebec, Canada, the following applies: The Parties hereby confirm
+ they have requested this Agreement and all related documents be prepared
+ in English.
+ .
+ By downloading, copying, installing or using the software you agree to this license.
+ If you do not agree to this license, do not download, install,
+ copy or use the software.
+ .
+ .
+                           License Agreement
+                For Open Source Computer Vision Library
+                        (3-clause BSD License)
+ .
+ Copyright (C) 2000-2015, Intel Corporation, all rights reserved.
+ Copyright (C) 2009-2011, Willow Garage Inc., all rights reserved.
+ Copyright (C) 2009-2015, NVIDIA Corporation, all rights reserved.
+ Copyright (C) 2010-2013, Advanced Micro Devices, Inc., all rights reserved.
+ Copyright (C) 2015, OpenCV Foundation, all rights reserved.
+ Copyright (C) 2015, Itseez Inc., all rights reserved.
+ Third party copyrights are property of their respective owners.
+ .
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+ .
+   * Redistributions of source code must retain the above copyright notice,
+     this list of conditions and the following disclaimer.
+ .
+   * Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+ .
+   * Neither the names of the copyright holders nor the names of the contributors
+     may be used to endorse or promote products derived from this software
+     without specific prior written permission.
+ .
+ This software is provided by the copyright holders and contributors "as is" and
+ any express or implied warranties, including, but not limited to, the implied
+ warranties of merchantability and fitness for a particular purpose are disclaimed.
+ In no event shall copyright holders or contributors be liable for any direct,
+ indirect, incidental, special, exemplary, or consequential damages
+ (including, but not limited to, procurement of substitute goods or services;
+ loss of use, data, or profits; or business interruption) however caused
+ and on any theory of liability, whether in contract, strict liability,
+ or tort (including negligence or otherwise) arising in any way out of
+ the use of this software, even if advised of the possibility of such damage.
+ .
+ .
+ This NOTICE file contains certain notices of software components included
+ with the software that Qualcomm Technologies, Inc. ("Qualcomm Technologies") is required to
+ provide you. Notwithstanding anything in the notices in this file, your use
+ of these software components together with the Qualcomm Technologies software (Qualcomm Technologies
+ software hereinafter referred to as "Software") is subject to the terms of
+ your license from Qualcomm Technologies. Compliance with all copyright laws and software
+ license agreements included in the notice section of this file are the
+ responsibility of the user. Except as may be granted by separate express
+ written agreement, this file provides no license to any patents,
+ trademarks, copyrights, or other intellectual property.
+ .
+ Copyright (c) 2017 Qualcomm Technologies, Inc. All rights reserved.
+ Qualcomm is a registered trademark and registered service mark of
+ QUALCOMM Incorporated. All other trademarks and service marks are the
+ property of their respective owners.
+ ________________________________________
+ NOTICES
+ ________________________________________
+ ________________________________________
+ .
+ /*M///////////////////////////////////////////////////////////////////////////////////////
+ //
+ //  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
+ //
+ //  By downloading, copying, installing or using the software you agree to this license.
+ //  If you do not agree to this license, do not download, install,
+ //  copy or use the software.
+ //
+ //
+ //                           License Agreement
+ //                For Open Source Computer Vision Library
+ //
+ // Copyright (C) 2000-2008, Intel Corporation, all rights reserved.
+ // Copyright (C) 2009, Willow Garage Inc., all rights reserved.
+ // Third party copyrights are property of their respective owners.
+ //
+ // Redistribution and use in source and binary forms, with or without modification,
+ // are permitted provided that the following conditions are met:
+ //
+ //   * Redistribution's of source code must retain the above copyright notice,
+ //     this list of conditions and the following disclaimer.
+ //
+ //   * Redistribution's in binary form must reproduce the above copyright notice,
+ //     this list of conditions and the following disclaimer in the documentation
+ //     and/or other materials provided with the distribution.
+ //
+ //   * The name of the copyright holders may not be used to endorse or promote products
+ //     derived from this software without specific prior written permission.
+ //
+ // This software is provided by the copyright holders and contributors "as is" and
+ // any express or implied warranties, including, but not limited to, the implied
+ // warranties of merchantability and fitness for a particular purpose are disclaimed.
+ // In no event shall the Intel Corporation or contributors be liable for any direct,
+ // indirect, incidental, special, exemplary, or consequential damages
+ // (including, but not limited to, procurement of substitute goods or services;
+ // loss of use, data, or profits; or business interruption) however caused
+ // and on any theory of liability, whether in contract, strict liability,
+ // or tort (including negligence or otherwise) arising in any way out of
+ // the use of this software, even if advised of the possibility of such damage.
+ //
+ //M*/
+ ________________________________________
+ /* Redistribution and use in source and binary forms, with or
+  * without modification, are permitted provided that the following
+  * conditions are met:
+  *     Redistributions of source code must retain the above
+  *     copyright notice, this list of conditions and the following
+  *     disclaimer.
+  *     Redistributions in binary form must reproduce the above
+  *     copyright notice, this list of conditions and the following
+  *     disclaimer in the documentation and/or other materials
+  *     provided with the distribution.
+  *     The name of Contributor may not be used to endorse or
+  *     promote products derived from this software without
+  *     specific prior written permission.
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+  * CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+  * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  * DISCLAIMED. IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE FOR ANY
+  * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+  * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+  * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+  * TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+  * OF SUCH DAMAGE.
+  * CopyrightÂ© 2009, Liu Liu All rights reserved.
+  *
+  * OpenCV functions for MSER extraction
+  *
+  * 1. there are two different implementation of MSER, one for gray image, one for color image
+  * 2. the gray image algorithm is taken from: Linear Time Maximally Stable Extremal Regions;
+  *    the paper claims to be faster than union-find method;
+  *    it actually get 1.5~2m/s on my centrino L7200 1.2GHz laptop.
+  * 3. the color image algorithm is taken from: Maximally Stable Colour Regions for Recognition and Match;
+  *    it should be much slower than gray image method ( 3~4 times );
+  *    the chi_table.h file is taken directly from paper's source code which is distributed under GPL.
+  * 4. though the name is *contours*, the result actually is a list of point set.
+  */
+ ________________________________________
+ .
+ /*
+  * This file includes the code, contributed by Simon Perreault
+  * (the function icvMedianBlur_8u_O1)
+  *
+  * Constant-time median filtering -- http://nomis80.org/ctmf.html
+  * Copyright (C) 2006 Simon Perreault
+  *
+  * Contact:
+  *  Laboratoire de vision et systemes numeriques
+  *  Pavillon Adrien-Pouliot
+  *  Universite Laval
+  *  Sainte-Foy, Quebec, Canada
+  *  G1K 7P4
+  *
+  *  perreaul@gel.ulaval.ca
+  */
+ ________________________________________
+ .
+  * Copyright (c) 2015, Piotr Dobrowolski dobrypd[at]gmail[dot]com
+  * All rights reserved.
+  *
+  * Redistribution and use in source and binary forms, with or without modification,
+  * are permitted provided that the following conditions are met:
+  *
+  * 1. Redistributions of source code must retain the above copyright notice,
+  *    this list of conditions and the following disclaimer.
+  *
+  * 2. Redistributions in binary form must reproduce the above copyright notice,
+  *    this list of conditions and the following disclaimer in the documentation
+  *    and/or other materials provided with the distribution.
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+  * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+  * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+  * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+  * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ...
+  *  For library description and list of supported cameras, go to
+  *  @url http://gphoto.sourceforge.net/
+ ________________________________________
+ .
+   The code has been derived from libsvm library (version 2.6)
+   (http://www.csie.ntu.edu.tw/~cjlin/libsvm).
+ .
+   Here is the orignal copyright:
+ ------------------------------------------------------------------------------------------
+     Copyright (c) 2000-2003 Chih-Chung Chang and Chih-Jen Lin
+     All rights reserved.
+ .
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+ .
+     1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+ .
+     2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+ .
+     3. Neither name of copyright holders nor the names of its contributors
+     may be used to endorse or promote products derived from this software
+     without specific prior written permission.
+ .
+ .
+     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+     ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+     LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+     A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR
+     CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+     EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+     PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+     PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+     LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+     NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ \****************************************************************************************/
+ ________________________________________
+ .
+     This is improved variant of chessboard corner detection algorithm that
+     uses a graph of connected quads. It is based on the code contributed
+     by Vladimir Vezhnevets and Philip Gruebele.
+     Here is the copyright notice from the original Vladimir's code:
+     ===============================================================
+ .
+     The algorithms developed and implemented by Vezhnevets Vldimir
+     aka Dead Moroz (vvp@graphics.cs.msu.ru)
+     See http://graphics.cs.msu.su/en/research/calibration/opencv.html
+     for detailed information.
+ .
+     Reliability additions and modifications made by Philip Gruebele.
+     <a href="mailto:pgruebele@cox.net">pgruebele@cox.net</a>
+ .
+     Some further improvements for detection of partially ocluded boards at non-ideal
+     lighting conditions have been made by Alex Bovyrin and Kurt Kolonige
+ .
+ ________________________________________
+   Finds real roots of cubic, quadratic or linear equation.
+   The original code has been taken from Ken Turkowski web page
+   (http://www.worldserver.com/turk/opensource/) and adopted for OpenCV.
+   Here is the copyright notice.
+ .
+   -----------------------------------------------------------------------
+   Copyright (C) 1978-1999 Ken Turkowski. <turk@computer.org>
+ .
+     All rights reserved.
+ .
+     Warranty Information
+       Even though I have reviewed this software, I make no warranty
+       or representation, either express or implied, with respect to this
+       software, its quality, accuracy, merchantability, or fitness for a
+       particular purpose.  As a result, this software is provided "as is,"
+       and you, its user, are assuming the entire risk as to its quality
+       and accuracy.
+ .
+     This code may be used and freely distributed as long as it includes
+     this copyright notice and the above warranty information.
+   -----------------------------------------------------------------------
+ ________________________________________
+ .
+ /********************************* COPYRIGHT NOTICE *******************************\
+   The function for RGB to Lab conversion is based on the MATLAB script
+   RGB2Lab.m translated by Mark Ruzon from C code by Yossi Rubner, 23 September 1997.
+   See the page [http://vision.stanford.edu/~ruzon/software/rgblab.html]
+ \**********************************************************************************/
+ .
+ /********************************* COPYRIGHT NOTICE *******************************\
+   Original code for Bayer->BGR/RGB conversion is provided by Dirk Schaefer
+   from MD-Mathematische Dienste GmbH. Below is the copyright notice:
+ .
+     IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
+     By downloading, copying, installing or using the software you agree
+     to this license. If you do not agree to this license, do not download,
+     install, copy or use the software.
+ .
+     Contributors License Agreement:
+ .
+       Copyright (c) 2002,
+       MD-Mathematische Dienste GmbH
+       Im Defdahl 5-10
+       44141 Dortmund
+       Germany
+       www.md-it.de
+ .
+     Redistribution and use in source and binary forms,
+     with or without modification, are permitted provided
+     that the following conditions are met:
+ .
+     Redistributions of source code must retain
+     the above copyright notice, this list of conditions and the following disclaimer.
+     Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+     The name of Contributor may not be used to endorse or promote products
+     derived from this software without specific prior written permission.
+ .
+     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+     AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+     THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+     PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     THE POSSIBILITY OF SUCH DAMAGE.
+ \**********************************************************************************/
+ ________________________________________
+ .
+ // Copyright 2005, Google Inc.
+ // All rights reserved.
+ //
+ // Redistribution and use in source and binary forms, with or without
+ // modification, are permitted provided that the following conditions are
+ // met:
+ //
+ //     * Redistributions of source code must retain the above copyright
+ // notice, this list of conditions and the following disclaimer.
+ //     * Redistributions in binary form must reproduce the above
+ // copyright notice, this list of conditions and the following disclaimer
+ // in the documentation and/or other materials provided with the
+ // distribution.
+ //     * Neither the name of Google Inc. nor the names of its
+ // contributors may be used to endorse or promote products derived from
+ // this software without specific prior written permission.
+ //
+ // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ // "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ // LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ // A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ // OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ // SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ // LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ // DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ // THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ //
+ // Author: wan@google.com (Zhanyong Wan)
+ //
+ // The Google C++ Testing Framework (Google Test)
+ //
+ // This header file defines the public API for Google Test.  It should be
+ // included by any test program that uses Google Test.
+ //
+ // IMPORTANT NOTE: Due to limitation of the C++ language, we have to
+ // leave some internal implementation details in this header file.
+ // They are clearly marked by comments like this:
+ //
+ //   // INTERNAL IMPLEMENTATION - DO NOT USE IN A USER PROGRAM.
+ //
+ // Such code is NOT meant to be used by a user directly, and is subject
+ // to CHANGE WITHOUT NOTICE.  Therefore DO NOT DEPEND ON IT in a user
+ // program!
+ //
+ // Acknowledgment: Google Test borrowed the idea of automatic test
+ // registration from Barthelemy Dagenais' (barthelemy@prologique.com)
+ // easyUnit framework.
+ .
+ ________________________________________
+ .
+ /*  Copyright (c) 2013, Bo Li (prclibo@gmail.com), ETH Zurich
+     All rights reserved.
+ .
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions are met:
+         * Redistributions of source code must retain the above copyright
+           notice, this list of conditions and the following disclaimer.
+         * Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in the
+           documentation and/or other materials provided with the distribution.
+         * Neither the name of the copyright holder nor the
+           names of its contributors may be used to endorse or promote products
+           derived from this software without specific prior written permission.
+ .
+     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
+     DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+     ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+ .
+ ________________________________________
+ .
+    This is translation to C++ of the Matlab's LMSolve package by Miroslav Balda.
+    Here is the original copyright:
+    ============================================================================
+ .
+    Copyright (c) 2007, Miroslav Balda
+    All rights reserved.
+ .
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+ .
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above copyright
+          notice, this list of conditions and the following disclaimer in
+          the documentation and/or other materials provided with the distribution
+ .
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+    POSSIBILITY OF SUCH DAMAGE
+ .
+ ________________________________________
+ .
+ /*
+  * Copyright (c) 2013 NVIDIA Corporation. All rights reserved.
+  *
+  * Redistribution and use in source and binary forms, with or without
+  * modification, are permitted provided that the following conditions are met:
+  *
+  *   Redistributions of source code must retain the above copyright notice,
+  *   this list of conditions and the following disclaimer.
+  *
+  *   Redistributions in binary form must reproduce the above copyright notice,
+  *   this list of conditions and the following disclaimer in the documentation
+  *   and/or other materials provided with the distribution.
+  *
+  *   Neither the name of NVIDIA Corporation nor the names of its contributors
+  *   may be used to endorse or promote products derived from this software
+  *   without specific prior written permission.
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+  * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  * POSSIBILITY OF SUCH DAMAGE.
+  */
+ ________________________________________
+ .
+ /*
+  * Copyright (c) 2013 NVIDIA Corporation. All rights reserved.
+  *
+  * Redistribution and use in source and binary forms, with or without
+  * modification, are permitted provided that the following conditions are met:
+  *
+  *   Redistributions of source code must retain the above copyright notice,
+  *   this list of conditions and the following disclaimer.
+  *
+  *   Redistributions in binary form must reproduce the above copyright notice,
+  *   this list of conditions and the following disclaimer in the documentation
+  *   and/or other materials provided with the distribution.
+  *
+  *   Neither the name of NVIDIA Corporation nor the names of its contributors
+  *   may be used to endorse or promote products derived from this software
+  *   without specific prior written permission.
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+  * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  * POSSIBILITY OF SUCH DAMAGE.
+  */
+ ________________________________________
+ .
+  * Copyright (c) 2008-2013 The Khronos Group Inc.
+  *
+  * Permission is hereby granted, free of charge, to any person obtaining a
+  * copy of this software and/or associated documentation files (the
+  * "Materials"), to deal in the Materials without restriction, including
+  * without limitation the rights to use, copy, modify, merge, publish,
+  * distribute, sublicense, and/or sell copies of the Materials, and to
+  * permit persons to whom the Materials are furnished to do so, subject to
+  * the following conditions:
+  *
+  * The above copyright notice and this permission notice shall be included
+  * in all copies or substantial portions of the Materials.
+  *
+  * THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  * CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+  * MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+ .
+ ________________________________________
+ .
+ // Sort the sequence using user-specified comparison function.
+ // The semantics is similar to qsort() function.
+ // The code is based on BSD system qsort():
+ //    * Copyright (c) 1992, 1993
+ //    *  The Regents of the University of California.  All rights reserved.
+ //    *
+ //    * Redistribution and use in source and binary forms, with or without
+ //    * modification, are permitted provided that the following conditions
+ //    * are met:
+ //    * 1. Redistributions of source code must retain the above copyright
+ //    *    notice, this list of conditions and the following disclaimer.
+ //    * 2. Redistributions in binary form must reproduce the above copyright
+ //    *    notice, this list of conditions and the following disclaimer in the
+ //    *    documentation and/or other materials provided with the distribution.
+ //    * 3. All advertising materials mentioning features or use of this software
+ //    *    must display the following acknowledgement:
+ //    *  This product includes software developed by the University of
+ //    *  California, Berkeley and its contributors.
+ //    * 4. Neither the name of the University nor the names of its contributors
+ //    *    may be used to endorse or promote products derived from this software
+ //    *    without specific prior written permission.
+ //    *
+ //    * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ //    * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ //    * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ //    * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ //    * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ //    * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ //    * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ //    * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ //    * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ //    * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ //    * SUCH DAMAGE.
+ .
+ ________________________________________
+ .
+ /*
+  * Copyright (c) 2011. Philipp Wagner <bytefish[at]gmx[dot]de>.
+  * Released to public domain under terms of the BSD Simplified license.
+  *
+  * Redistribution and use in source and binary forms, with or without
+  * modification, are permitted provided that the following conditions are met:
+  *   * Redistributions of source code must retain the above copyright
+  *     notice, this list of conditions and the following disclaimer.
+  *   * Redistributions in binary form must reproduce the above copyright
+  *     notice, this list of conditions and the following disclaimer in the
+  *     documentation and/or other materials provided with the distribution.
+  *   * Neither the name of the organization nor the names of its contributors
+  *     may be used to endorse or promote products derived from this software
+  *     without specific prior written permission.
+  *
+  *   See <http://www.opensource.org/licenses/bsd-license>
+  */
+ ________________________________________
+ .
+    A C-program for MT19937, with initialization improved 2002/1/26.
+    Coded by Takuji Nishimura and Makoto Matsumoto.
+ .
+    Before using, initialize the state by using init_genrand(seed)
+    or init_by_array(init_key, key_length).
+ .
+    Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+    All rights reserved.
+ .
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+ .
+      1. Redistributions of source code must retain the above copyright
+         notice, this list of conditions and the following disclaimer.
+ .
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, this list of conditions and the following disclaimer in the
+         documentation and/or other materials provided with the distribution.
+ .
+      3. The names of its contributors may not be used to endorse or promote
+         products derived from this software without specific prior written
+         permission.
+ .
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ .
+    Any feedback is very welcome.
+    http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html
+    email: m-mat @ math.sci.hiroshima-u.ac.jp (remove space)
+ ________________________________________
+ .
+ /*
+ Copyright (C) 2010  Elmar Mair
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+     *Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+ .
+     *Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ .
+     *Neither the name of the University of Cambridge nor the names of
+      its contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+ .
+ ________________________________________
+ .
+ Copyright (c) 2006, 2008 Edward Rosten
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+     *Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+ .
+     *Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ .
+     *Neither the name of the University of Cambridge nor the names of
+      its contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ ________________________________________
+ .
+  * Software License Agreement (BSD License)
+  *
+  * Copyright 2008-2009  Marius Muja (mariusm@cs.ubc.ca). All rights reserved.
+  * Copyright 2008-2009  David G. Lowe (lowe@cs.ubc.ca). All rights reserved.
+  *
+  * Redistribution and use in source and binary forms, with or without
+  * modification, are permitted provided that the following conditions
+  * are met:
+  *
+  * 1. Redistributions of source code must retain the above copyright
+  *    notice, this list of conditions and the following disclaimer.
+  * 2. Redistributions in binary form must reproduce the above copyright
+  *    notice, this list of conditions and the following disclaimer in the
+  *    documentation and/or other materials provided with the distribution.
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+  * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+  * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+  * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+  * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+  * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ ________________________________________
+ .
+  * (C) Copyright Christopher Diggins 2005-2011
+  * (C) Copyright Pablo Aguilar 2005
+  * (C) Copyright Kevlin Henney 2001
+  *
+  * Distributed under the Boost Software License, Version 1.0. (See
+  * accompanying file LICENSE_1_0.txt or copy at
+  * http://www.boost.org/LICENSE_1_0.txt
+  *
+  * Adapted for FLANN by Marius Muja
+ ________________________________________
+ .
+ // This implementation is based on Javier SÃ¡nchez PÃ©rez <jsanchez@dis.ulpgc.es> implementation.
+ // Original BSD license:
+ //
+ // Copyright (c) 2011, Javier SÃ¡nchez PÃ©rez, Enric Meinhardt Llopis
+ // All rights reserved.
+ //
+ // Redistribution and use in source and binary forms, with or without
+ // modification, are permitted provided that the following conditions are met:
+ //
+ // * Redistributions of source code must retain the above copyright notice, this
+ //   list of conditions and the following disclaimer.
+ //
+ // * Redistributions in binary form must reproduce the above copyright notice,
+ //   this list of conditions and the following disclaimer in the documentation
+ //   and/or other materials provided with the distribution.
+ //
+ // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ // AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ // IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ // ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ // LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ // CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ // SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ // INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ // CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ // POSSIBILITY OF SUCH DAMAGE.
+ //
+ ________________________________________
+ .
+ /*  For iOS video I/O
+  *  by Eduard Feicho on 29/07/12
+  *  Copyright 2012. All rights reserved.
+  *
+  * Redistribution and use in source and binary forms, with or without
+  * modification, are permitted provided that the following conditions are met:
+  *
+  * 1. Redistributions of source code must retain the above copyright notice,
+  *    this list of conditions and the following disclaimer.
+  * 2. Redistributions in binary form must reproduce the above copyright notice,
+  *    this list of conditions and the following disclaimer in the documentation
+  *    and/or other materials provided with the distribution.
+  * 3. The name of the author may not be used to endorse or promote products
+  *    derived from this software without specific prior written permission.
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+  * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+  * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+  * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+  * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  *
+  */
+ ________________________________________
+ .
+ // Video support for Windows Runtime
+ .
+ // Copyright (c) Microsoft Open Technologies, Inc.
+ // All rights reserved.
+ //
+ // (3 - clause BSD License)
+ //
+ // Redistribution and use in source and binary forms, with or without modification, are permitted provided that
+ // the following conditions are met:
+ //
+ // 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the
+ // following disclaimer.
+ // 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the
+ // following disclaimer in the documentation and/or other materials provided with the distribution.
+ // 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or
+ // promote products derived from this software without specific prior written permission.
+ //
+ // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+ // WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ // PARTICULAR PURPOSE ARE DISCLAIMED.IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY
+ // DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES(INCLUDING, BUT NOT LIMITED TO,
+ // PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ // HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT(INCLUDING
+ // NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ // POSSIBILITY OF SUCH DAMAGE.
+ .
+ ________________________________________
+ .
+ // Copyright (c) Microsoft. All rights reserved.
+ //
+ // The MIT License (MIT)
+ //
+ // Permission is hereby granted, free of charge, to any person obtaining a copy
+ // of this software and associated documentation files(the "Software"), to deal
+ // in the Software without restriction, including without limitation the rights
+ // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ // copies of the Software, and to permit persons to whom the Software is
+ // furnished to do so, subject to the following conditions :
+ //
+ // The above copyright notice and this permission notice shall be included in
+ // all copies or substantial portions of the Software.
+ //
+ // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE
+ // AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ // THE SOFTWARE.
+ ________________________________________
+ ________________________________________
+ .
+ Note: Any files for which the above Apache License notices are required
+ to be provided are not contributions.
+ .
+ A copy of the Apache 2.0 license is included in the file LICENSE
+ for attribution purposes only.
+ .
+ .
+ This NOTICE file contains certain notices of software components included with the software that Qualcomm Technologies, Inc. ("Qualcomm Technologies") is required to provide you.
+ Notwithstanding anything in the notices in this file, your use of these software components together with the Qualcomm Technologies software (Qualcomm Technologies software hereinafter referred
+ to as "Software") is subject to the terms of your license from Qualcomm Technologies. Compliance with all copyright laws and software license agreements included in the notice section of this file are the responsibility
+ of the user. Except as may be granted by separate express written agreement, this file provides no license to any Qualcomm Technologies patents,trademarks, copyrights, or other intellectual property.
+ .
+ Copyright (c) 2018 Qualcomm Technologies, Inc.
+ All rights reserved.
+ Qualcomm is a registered trademark and registered service mark of QUALCOMM Incorporated. All other trademarks and service marks are the property of their respective owners.
+ .
+ .
+  * Licensed under the Apache License, Version 2.0 (the "License");
+  * you may not use this file except in compliance with the License.
+  * You may obtain a copy of the License at
+  *
+  *      http://www.apache.org/licenses/LICENSE-2.0
+  *
+  * Unless required by applicable law or agreed to in writing, software
+  * distributed under the License is distributed on an "AS IS" BASIS,
+  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+ .
+ .
+ AMD License: BSD 3-clause:
+ -------------------------------------------------------------------------------
+ .
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions are met:
+         * Redistributions of source code must retain the above copyright
+           notice, this list of conditions and the following disclaimer.
+         * Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in the
+           documentation and/or other materials provided with the distribution.
+         * Neither the name of the organizations to which the authors are
+           affiliated, nor the names of its contributors may be used to endorse
+           or promote products derived from this software without specific prior
+           written permission.
+ .
+     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+     AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY
+     DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+     CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+     DAMAGE.
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-* Redistributions of source code must retain the above copyright
-  notice, this list of conditions and the following disclaimer.
-* Redistributions in binary form must reproduce the above
-  copyright notice, this list of conditions and the following
-  disclaimer in the documentation and/or other materials provided
-  with the distribution.
-* Neither the name of the copyright holder nor the names of its
-  contributors may be used to endorse or promote products derived
-  from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
-WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
-ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
-BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
-BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
-IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Files:
+ debian/*
+Copyright:
+ Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
+License: BSD-3-Clause-Clear
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted (subject to the limitations in the
+ disclaimer below) provided that the following conditions are met:
+ .
+     * Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+ .
+     * Redistributions in binary form must reproduce the above
+       copyright notice, this list of conditions and the following
+       disclaimer in the documentation and/or other materials provided
+       with the distribution.
+ .
+     * Neither the name of Qualcomm Innovation Center, Inc. nor the names of its
+       contributors may be used to endorse or promote products derived
+       from this software without specific prior written permission.
+ .
+ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE
+ GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT
+ HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+ IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

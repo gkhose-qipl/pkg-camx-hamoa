@@ -7,9 +7,9 @@ Uploaders:
 Build-Depends:
  debhelper-compat (= 13),
  libglib2.0-0,
- libglib2.0-dev,
- libxml2-16,
- libxml2-dev,
+ libxml2,
+ libfastrpc1,
+ protobuf-compiler,
 Standards-Version: 4.6.2
 
 Package: camx-hamoa
