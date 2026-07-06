@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-export DH_VERBOSE = 1
-
 %:
 	dh $@
 
@@ -15,7 +13,4 @@ ifeq ($(DEB_HOST_ARCH),arm64)
 	done
 	rm -rf $(CURDIR)/debian/tmp/usr/share/doc
 endif
-	:
-
-override_dh_shlibdeps:
 	:
