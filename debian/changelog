@@ -1,6 +1,6 @@
-camx-hamoa (1.0.28-2~) UNRELEASED; urgency=medium
+camx-hamoa (1.0.28-2) UNRELEASED; urgency=medium
 
-  * WIP — update changelog before next release
+  * Update camx-hamoa dependencies to point to correct qcom-fastcv-binaries1 
 
  -- Qualcomm Camera Team <camera.deb.maintainers@qti.qualcomm.com>  Wed, 15 Jul 2026 05:37:31 +0000
 
