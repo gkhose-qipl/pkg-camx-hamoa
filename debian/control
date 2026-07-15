@@ -19,7 +19,7 @@ Depends:
  libxml2-16,
  libprotobuf-lite32t64,
  libfastrpc1,
- qcom-fastcv-binaries,
+ qcom-fastcv-binaries1,
  ${shlibs:Depends},
  ${misc:Depends}
 Description: Qualcomm CamX usermode libraries for Hamoa platform
