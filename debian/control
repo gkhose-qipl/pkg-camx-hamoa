@@ -15,6 +15,11 @@ Homepage: http://support.cdmatech.com
 Package: camx-hamoa
 Architecture: arm64
 Depends:
+ libglib2.0-0,
+ libxml2-16,
+ libprotobuf-lite32t64,
+ libfastrpc1,
+ qcom-fastcv-binaries,
  ${shlibs:Depends},
  ${misc:Depends}
 Description: Qualcomm CamX usermode libraries for Hamoa platform
