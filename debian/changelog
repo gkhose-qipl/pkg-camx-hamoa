@@ -1,5 +1,5 @@
 camx-hamoa (1.0.27-0qli+staging1~) UNRELEASED; urgency=medium
 
-  * Camx debians for hamoa platform.
+  * Initial release.
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Wed, 18 Jun 2026 00:00:00 +0000
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 16 Jul 2026 14:11:00 +0200
