@@ -1,0 +1,3 @@
+# proprietary software
+source-contains-prebuilt-binary [usr/lib/*]
+source-is-missing [usr/lib/*]
