@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
 Uploaders:
  Loïc Minier <loic.minier@oss.qualcomm.com>,
+ Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
  libglib2.0-0,
