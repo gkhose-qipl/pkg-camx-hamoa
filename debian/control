@@ -7,6 +7,7 @@ Uploaders:
  Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
+Build-Depends-Arch:
  libglib2.0-0,
  libxml2,
  libfastrpc1,
