@@ -13,6 +13,8 @@ Build-Depends-Arch:
  libfastrpc1,
  protobuf-compiler,
 Standards-Version: 4.6.2
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-hamoa
+Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-hamoa.git
 
 Package: camx-hamoa
 Architecture: arm64
