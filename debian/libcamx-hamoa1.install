@@ -1,3 +1,1 @@
-usr/lib/libcamx_hardware_hamoa.so.* usr/lib/
-usr/lib/libcamxexternalformatutils_hamoa.so.* usr/lib/
-usr/lib/libcamx_metadata_hamoa.so.* usr/lib/
+data/libcamx-hamoa1/arm64/usr/lib/aarch64-linux-gnu/lib*.so.* usr/lib/aarch64-linux-gnu
