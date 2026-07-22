@@ -2,3 +2,6 @@
 # a valid use described in the lintian tag message.
 custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/hamoa [*]
 custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/hamoa/hw [*]
+
+# upstream does not compile with bindnow
+hardening-no-bindnow [*]
