@@ -1,5 +1,5 @@
 Source: camx-hamoa
-Section: misc
+Section: non-free/libs
 Priority: optional
 Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
 Uploaders:
@@ -13,6 +13,7 @@ Build-Depends-Arch:
  libxml2,
  protobuf-compiler,
 Standards-Version: 4.6.2
+Homepage: http://support.cdmatech.com
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-hamoa
 Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-hamoa.git
 
@@ -34,11 +35,11 @@ Description: Qualcomm CamX libraries for camera service
  Set of libraries used by camera service (QMMF) for Hamoa platform
 
 Package: libcamx-hamoa-dev
+Section: non-free/libdevel
 Architecture: arm64
 Depends:
  camx-hamoa (= ${binary:Version}),
  ${misc:Depends},
- ${shlibs:Depends},
 Description: Dev package for CamX libraries for camera service
  Contains unversioned so files used by camera service (QMMF)
  for Hamoa platform
