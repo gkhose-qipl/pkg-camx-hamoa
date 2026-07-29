@@ -1,6 +1,9 @@
+LICENSE.qcom-2
 camx-entitled-headers-dev/
-camx-hamoa/
+camx-hamoa-dbgsym/
 camx-hamoa-dev/
+camx-hamoa/
 libcamx-dev/
 libcamx-hamoa-dev/
+libcamx-hamoa1-dbgsym/
 libcamx-hamoa1/
