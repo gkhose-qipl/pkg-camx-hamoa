@@ -40,7 +40,6 @@ Architecture: arm64
 Depends:
  camx-hamoa (= ${binary:Version}),
  ${misc:Depends},
- ${shlibs:Depends},
 Description: Dev package for CamX libraries for camera service
  Contains unversioned so files used by camera service (QMMF)
  for Hamoa platform
