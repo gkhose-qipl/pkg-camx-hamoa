@@ -1,5 +1,7 @@
-camx-hamoa (1.0.32-0qli+staging1~) UNRELEASED; urgency=medium
+camx-hamoa (1.0.32-0qli+staging1) unstable; urgency=medium
 
-  * Initial release.
+  * Fake release to unstable: libxml2.9 (source) which provides libxml2 is
+    available in unstable but not in testing yet. Perform a fake unstable
+    release so we can backport it to trixie.
 
  -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 16 Jul 2026 14:11:00 +0200
