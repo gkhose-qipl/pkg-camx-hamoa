@@ -3,17 +3,22 @@
 %:
 	dh $@
 
-override_dh_auto_install:
-ifeq ($(DEB_HOST_ARCH),arm64)
-	mkdir -p debian/tmp
-	for pkg in camx-hamoa \
-	           libcamx-hamoa1 \
-	           libcamx-hamoa-dev; do \
-		cp -a data/$$pkg/arm64/* debian/tmp/; \
-	done
-	rm -rf $(CURDIR)/debian/tmp/usr/share/doc
-endif
-	:
+override_dh_shlibdeps:
+	dh_shlibdeps \
+		-l/usr/lib/aarch64-linux-gnu/camx/hamoa \
+		-l/usr/lib/aarch64-linux-gnu/camx/hamoa/hw
+
+maintainerclean:
+	rm -r \
+		LICENSE.qcom-2 \
+		camx-entitled-headers-dev/ \
+		camx-hamoa-dbgsym/ \
+		camx-hamoa-dev/ \
+		camx-hamoa/ \
+		libcamx-dev/ \
+		libcamx-hamoa-dev/ \
+		libcamx-hamoa1-dbgsym/ \
+		libcamx-hamoa1/
 
 override_dh_strip:
 	# Don't strip DSP skel files
