@@ -1,8 +1,9 @@
-camx-hamoa (1.0.33-1) UNRELEASED; urgency=medium
+camx-hamoa (1.0.33-1) resolute; urgency=medium
 
+  [ Qualcomm Camera Team ]
   * IMX688 sensor tuning changes
 
- -- Qualcomm Camera Team <camera.deb.maintainers@qti.qualcomm.com>  Fri, 31 Jul 2026 13:27:31 +0000
+ -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Fri, 31 Jul 2026 07:07:53 +0000
 
 camx-hamoa (1.0.30-1) resolute; urgency=medium
 
