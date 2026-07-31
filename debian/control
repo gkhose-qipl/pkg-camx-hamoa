@@ -1,27 +1,28 @@
 Source: camx-hamoa
-Section: misc
+Section: non-free/libs
 Priority: optional
-Maintainer: Qualcomm Camera Team <camera.deb.maintainers@qti.qualcomm.com>
-Rules-Requires-Root: no
+Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
+Uploaders:
+ Loïc Minier <loic.minier@oss.qualcomm.com>,
+ Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
+Build-Depends-Arch:
+ libfastrpc1,
  libglib2.0-0,
  libxml2-16,
- libfastrpc1,
  protobuf-compiler,
 Standards-Version: 4.6.2
 Homepage: http://support.cdmatech.com
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-hamoa
+Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-hamoa.git
 
 Package: camx-hamoa
 Architecture: arm64
 Depends:
- libglib2.0-0,
- libxml2-16,
- libprotobuf-lite32t64,
- libfastrpc1,
- qcom-fastcv-binaries1,
+ libfastcvopt1,
+ ${misc:Depends},
  ${shlibs:Depends},
- ${misc:Depends}
 Description: Qualcomm CamX usermode libraries for Hamoa platform
  Core camera driver components for Hamoa platform.
 
@@ -29,17 +30,17 @@ Package: libcamx-hamoa1
 Architecture: arm64
 Depends:
  camx-hamoa (= ${binary:Version}),
+ ${misc:Depends},
  ${shlibs:Depends},
- ${misc:Depends}
 Description: Qualcomm CamX libraries for camera service
  Set of libraries used by camera service (QMMF) for Hamoa platform
 
 Package: libcamx-hamoa-dev
+Section: non-free/libdevel
 Architecture: arm64
 Depends:
  camx-hamoa (= ${binary:Version}),
- ${shlibs:Depends},
- ${misc:Depends}
+ ${misc:Depends},
 Description: Dev package for CamX libraries for camera service
- Contains headers, unversioned so files used by camera service (QMMF
+ Contains unversioned so files used by camera service (QMMF)
  for Hamoa platform
