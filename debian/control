@@ -19,6 +19,7 @@ Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-hamoa.git
 
 Package: camx-hamoa
 Architecture: arm64
+Provides: camx-purwa (= ${binary:Version})
 Depends:
  libfastcvopt1,
  ${misc:Depends},
@@ -44,3 +45,4 @@ Depends:
 Description: Dev package for CamX libraries for camera service
  Contains unversioned so files used by camera service (QMMF)
  for Hamoa platform
+
