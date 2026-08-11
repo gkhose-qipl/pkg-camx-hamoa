@@ -11,7 +11,7 @@ Build-Depends-Arch:
  libglib2.0-0,
  libxml2,
  protobuf-compiler,
-Standards-Version: 4.6.2
+Standards-Version: 4.7.4
 Homepage: http://support.cdmatech.com
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-hamoa
 Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-hamoa.git
