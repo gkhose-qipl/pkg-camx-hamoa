@@ -1,3 +1,9 @@
+camx-hamoa (1.0.32-0qli1~bpo13+1~) UNRELEASED; urgency=medium
+
+  * Rebuild for trixie.
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 11 Aug 2026 14:35:40 +0200
+
 camx-hamoa (1.0.32-0qli1) unstable; urgency=medium
 
   * Initial (fake) release to QLI unstable
