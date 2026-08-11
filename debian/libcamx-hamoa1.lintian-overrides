@@ -5,3 +5,6 @@ custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/hamoa/hw [*]
 
 # upstream does not compile with bindnow
 hardening-no-bindnow [*]
+
+# upstream ships multiple .so files, group them in a single package
+package-name-doesnt-match-sonames libcamx-hardware-hamoa1 libcamx-metadata-hamoa1 libcamxexternalformatutils-hamoa0
