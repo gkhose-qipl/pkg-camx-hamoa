@@ -1,6 +1,5 @@
 Source: camx-hamoa
 Section: non-free/libs
-Priority: optional
 Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
 Uploaders:
  Loïc Minier <loic.minier@oss.qualcomm.com>,
