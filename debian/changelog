@@ -1,4 +1,4 @@
-camx-hamoa (1.0.32-0qli1) UNRELEASED; urgency=medium
+camx-hamoa (1.0.32-0qli1) unstable; urgency=medium
 
   * Initial (fake) release to QLI unstable
   * libcamx-hamoa1: add Provides: camx-server-runtime-any
