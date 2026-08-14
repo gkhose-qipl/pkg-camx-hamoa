@@ -1,6 +1,7 @@
-camx-hamoa (1.0.33-2~) UNRELEASED; urgency=medium
+camx-hamoa (1.0.34-1) UNRELEASED; urgency=medium
 
-  * WIP — update changelog before next release
+  [ Qualcomm Camera Team ]
+  * Enable Purwa virtual packages
 
  -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Fri, 31 Jul 2026 07:23:00 +0000
 
