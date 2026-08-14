@@ -1,3 +1,3 @@
-camx-hamoa/arm64/usr/bin/camx usr/bin/
+camx-hamoa/arm64/usr/libexec/camx-hamoa/ usr/libexec/
 camx-hamoa/arm64/usr/share/hexagon-dsp/x1e80100/Qualcomm/Hamoa-IoT-EVK/dsp/cdsp/*.so /usr/share/hexagon-dsp/x1e80100/Qualcomm/Hamoa-IoT-EVK/dsp/cdsp
 camx-hamoa/arm64/usr/lib/aarch64-linux-gnu/camx usr/lib/aarch64-linux-gnu
