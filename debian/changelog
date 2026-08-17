@@ -1,9 +1,10 @@
-camx-hamoa (1.0.35-1) UNRELEASED; urgency=medium
+camx-hamoa (1.0.35-1) resolute; urgency=medium
 
+  [ Qualcomm Camera Team ]
   [ Qualcomm Camera Team]
   * IMX688, IMX577 tuning fixes
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Fri, 14 Aug 2026 16:51:08 +0000
+ -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Mon, 17 Aug 2026 18:17:42 +0000
 
 camx-hamoa (1.0.34-1) resolute; urgency=medium
 
