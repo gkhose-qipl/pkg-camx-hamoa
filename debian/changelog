@@ -1,6 +1,6 @@
 camx-hamoa (1.0.39-1) UNRELEASED; urgency=medium
 
-  * WIP — update changelog before next release
+  * Tuning enablement of features like ADRC and LDC
 
  -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Mon, 17 Aug 2026 18:36:59 +0000
 
