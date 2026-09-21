@@ -1,8 +1,9 @@
-camx-hamoa (1.0.47-1) UNRELEASED; urgency=medium
+camx-hamoa (1.0.47-1) resolute; urgency=medium
 
+  [ Qualcomm Camera Team ]
   * Add imx688 sensor part of hamoa logical camera
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Mon, 21 Sep 2026 14:07:18 +0000
+ -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Mon, 21 Sep 2026 09:12:33 +0000
 
 camx-hamoa (1.0.45-1) resolute; urgency=medium
 
